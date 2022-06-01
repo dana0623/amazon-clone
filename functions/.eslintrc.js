@@ -8,6 +8,11 @@ module.exports = {
     "eslint:recommended",
     "google",
   ],
+  parser: "@babel/eslint-parser",
+  parserOptions: {
+    "ecmaVersion": 9,
+    "requireConfigFile": false,
+  },
   rules: {
     quotes: ["error", "double"],
   },
